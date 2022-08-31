@@ -1,6 +1,11 @@
 
 # 會員植物管理系統 - 專案文件
 
+## Repos
+- 前端： [rental-planter](https://github.com/monosparta/rental-planter)
+- 後端： [rental-planter-backend](https://github.com/monosparta/rental-planter-backend)
+- 物聯網： [trunk_rental_plants](https://github.com/monosparta/trunk_rental_plants)
+
 ## 實作方法
 - 使用土壤濕度感測器偵測土壤濕度，並傳送到後端將濕度歷史存到資料庫中
 - 使用 Vue.js 並搭配 PWA 實做使用者介面
@@ -17,13 +22,7 @@
     - 通知土壤濕度過低
     - 通知植物長蟲或枯萎
 - 使用光照感測器偵測環境亮度並自動控制光照燈
-<!-- - 用 Figma 拉出網頁頁面
-- 用 Vue.js 刻出前端畫面
-- 紀錄土壤溼度存入資料庫
-- 
-- 連接前後端
-- 將土壤溼度感測器插入土裡
- -->
+
 ## 系統需求
 - 土壤溼度感測器*2
 ![土壤溼度感測器](https://i.imgur.com/kl3HXhI.png)
@@ -36,7 +35,6 @@
 
 ### 使用者使用方式
 
-<!-- 紀錄要租借盆器的會員的資料 -->
 #### 會員
 - 登入會員帳號後可租借盆器
 - 到預約畫面填寫個人資料、植物資料
